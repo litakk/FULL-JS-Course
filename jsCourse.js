@@ -478,8 +478,6 @@ let Array2 = "Сложные методы массивов"
 
 
 
-
-
 let FuntionLesson = ""
 // function blender(meva="Olma") {
 //     return `${meva}li sok tayyor!`
@@ -649,7 +647,6 @@ let FuntionLesson = ""
 //     // 3. join array of words into string
 //     return upperFirstList.join(' ') // "^... ^... ^..."
 // }
-
 
 
 
