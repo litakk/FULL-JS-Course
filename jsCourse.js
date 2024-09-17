@@ -198,7 +198,7 @@ let StringMethods
 
 
 let lesson = "Alert, Prompt, Confirm & Условные операторы Else If"
-// //* alert   => оповышение
+// //* alert   => оповещение
 // //* prompt  => asks a question or information from client
 // //*            задаёт вопрос (диалог), можно сохранить как контейнер
 // //* confirm => даёт выбор (да или нет)
@@ -247,13 +247,13 @@ let lesson = "Alert, Prompt, Confirm & Условные операторы Else 
 // `)
 // if (order == "1" || order.includes("Куриный бульён из тараканов")) {
 //     let trueOrFalse = confirm(`
-//         Куриный бульён из тараканов закончился но есть из муровей. 
+//         Куриный бульён из тараканов закончился но есть из муровьёв. 
 //         Принести?
 //     `)
 //     if (trueOrFalse == true) {
-//         alert("Ваш Куриный бульён из муровей будет после 5 минут")
+//         alert("Ваш Куриный бульён из муровьёв будет готов через 5 минут")
 //     } else {
-//         alert('Если не хотите то идите и ещте ....!')
+//         alert('Если не хотите то можете выбрать что-либо другое из меню ....!')
 //     }
 // } 
 
@@ -403,7 +403,14 @@ let FunctionExamples
 //     return getBiggestAndLowest(arr)
 // }
 
-
+// function minMax() {
+//     let arr = [1, 5, 3, 2]
+//     arr.sort((a, b) => a - b)
+//     let min = arr[0]
+//     let max = arr[arr.length - 1]
+//     return `минимальное число ${min}, максимальное число ${max}`;
+// }
+// console.log(minMax())
 
 
 let ArrayLesson = "Простые методы массивов"
