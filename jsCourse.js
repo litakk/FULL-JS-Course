@@ -194,14 +194,21 @@ let StringMethods
 //!                RU: объединяет все элементы массива в строку
 
 
+let number = 10;
 
-
+if (number > 5) {
+    console.log("число больше чем 5")
+} else if ( number === 5) {
+    console.log("число равно 5")
+} else {
+    console.log("ошибка")
+}
 
 let lesson = "Alert, Prompt, Confirm & Условные операторы Else If"
-// //* alert   => оповещение
-// //* prompt  => asks a question or information from client
-// //*            задаёт вопрос (диалог), можно сохранить как контейнер
-// //* confirm => даёт выбор (да или нет)
+//* alert   => оповещение
+//* prompt  => asks a question or information from client
+//*            задаёт вопрос (диалог), можно сохранить как контейнер
+//* confirm => даёт выбор (да или нет)
 
 // if (условиеПервое == true) {
 //     // код прочитается если условиеПервое окажется правдой
